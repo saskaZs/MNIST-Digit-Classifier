@@ -64,7 +64,7 @@ Model structure:
   - W: Input width, K: Kernel size, P: Padding (0 here), S: Stride (1).
 
 ### 4. Training Process
-- **Loss**: Categorical Crossentropy: $$ L = - \sum y_i \log(\hat{y_i}) $$
+- **Loss**: Categorical Crossentropy: $$L = - \sum y_i \log(\hat{y_i})$$
   - Measures prediction vs. true label divergence.
 - **Optimizer**: Adam (adaptive learning rate) for efficient gradient descent.
 - **Metrics**: Accuracy = correct predictions / total.
