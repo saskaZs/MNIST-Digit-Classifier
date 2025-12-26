@@ -19,9 +19,9 @@ The model uses a convolutional neural network (CNN) to achieve high accuracy (~9
 ---
 
 ## 📂 Project Structure
-`main.py`                     # Main script: Load data, build/train/eval/save model, plot history
-`predict.py`                  # Inference script: Load model, preprocess custom image, predict digit
-`requirements.txt`            # Dependencies: pandas, tensorflow, scikit-learn, matplotlib, pillow, numpy
+`main.py`                     # Main script: Load data, build/train/eval/save model, plot history <br>
+`predict.py`                  # Inference script: Load model, preprocess custom image, predict digit <br>
+`requirements.txt`            # Dependencies: pandas, tensorflow, scikit-learn, matplotlib, pillow, numpy <br>
 
 
 **Note:** Assumes `train.csv` (from Kaggle) in root for training, and a user-provided PNG (e.g., `my_digit.png`) for prediction.
