@@ -24,7 +24,7 @@ The model uses a convolutional neural network (CNN) to achieve high accuracy (~9
 `requirements.txt`            # Dependencies: pandas, tensorflow, scikit-learn, matplotlib, pillow, numpy <br>
 
 
-**Note:** Assumes `train.csv` (from Kaggle) in root for training, and a user-provided PNG (e.g., `my_digit.png`) for prediction.
+**Note:** Assumes `train.csv` (from GFG) in root for training, and a user-provided PNG (e.g., `my_digit.png`) for prediction.
 
 ---
 
